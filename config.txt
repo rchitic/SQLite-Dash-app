@@ -1,0 +1,20 @@
+[db_types]
+types = [sqlite,postgres]
+active_type = sqlite
+
+[db_names]
+db_name_o = db
+db_name_a = claims_01.db
+
+[sqlite_paths]
+db_path_o = C:\\sqlite\\
+db_path_a = C:\\Users\\achit\\OneDrive\\Projects\\Python\\Dash\\
+
+[postgres_users]
+user = postgres
+
+[postgres_passwords]
+password = password
+
+[authentication]
+username_password_pairs = [("admin","admin")]
